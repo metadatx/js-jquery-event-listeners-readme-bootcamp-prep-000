@@ -6,7 +6,7 @@ $(document).ready(function(){
 getIt()
 frameIt()
 pressIt()
-
+submitIt()
 });
 
 function getIt(){
@@ -25,5 +25,11 @@ function pressIt(){
   $('input:first').on('keydown', function(){
     if($(this).val() === "G")
       alert("G is pressed");
+  });
+}
+
+function submitIt(){
+  $("form").on("submit", function(){
+    alert("Your form is going to be submitted now.");
   });
 }
