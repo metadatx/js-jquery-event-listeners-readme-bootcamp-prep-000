@@ -27,5 +27,3 @@ function pressIt(){
       alert("G is pressed");
   });
 }
-
-
