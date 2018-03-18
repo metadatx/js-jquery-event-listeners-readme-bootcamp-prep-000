@@ -22,7 +22,7 @@ function frameIt(){
 
 function pressIt(){
   $('input:first').on('keydown', function(){
-    if($(this).val() === "G") 
+    if($(this).val() === "G")
       alert("G is pressed");
   });
 }
