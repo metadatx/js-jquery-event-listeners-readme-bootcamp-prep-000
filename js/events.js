@@ -6,7 +6,7 @@ $(document).ready(function(){
 getIt()
 frameIt()
 pressIt()
-submitIt()
+
 });
 
 function getIt(){
@@ -28,8 +28,4 @@ function pressIt(){
   });
 }
 
-function submitIt(){
-  $("form").on("submit", function(){
-    alert("Your form is going to be submitted now.");
-  });
-}
+
